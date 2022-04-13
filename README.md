@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solução URL: https://portifolio-one-dani-michely.netlify.app/
+- Solução URL: https://danimichelydev.github.io/frontend-semana-1-e-2/
 
 
 
