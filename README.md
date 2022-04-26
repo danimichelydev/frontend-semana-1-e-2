@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solução URL: https://danimichelydev.github.io/frontend-semana-1-e-2/
+- Solução URL: https://danimichelydev.github.io/oracle-frontend-semana-1-e-2/
 
 
 
