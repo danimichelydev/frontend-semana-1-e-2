@@ -1,6 +1,6 @@
 # Front-End - Challenge One - Oracle Next Education
 
-<p>Semana 1 e 2: Do Figma ao HTML e CSS é um desafio de código do programa da Oracle proposto pela Alura.</p>
+<p>Semana 1 e 2: Do Figma ao HTML e CSS é um desafio de código do programa da Oracle proposto pela Alura onde desenvolvemos um projeto de acordo com as regras e layouts pedidos.</p>
 
 ### Screenshot
 
