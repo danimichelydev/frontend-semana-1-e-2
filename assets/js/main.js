@@ -26,7 +26,7 @@ button.addEventListener("click", (e) => {
     if(name.value == "" || name.value == null || name.value.length > 50 ) {
         count.push(1) 
         name.classList.add("invalid");
-        name.nextElementSibling.innerHTML = "Por favor, me diga seu nome!";
+        name.nextElementSibling.innerHTML = "Por favor, me diga seu nome! No máximo 50 caracteres";
         name.nextElementSibling.style.opacity = "1";
     } else {
         name.classList.remove("invalid");
@@ -36,7 +36,7 @@ button.addEventListener("click", (e) => {
     if(!pattern.test(email.value)) {
         count.push(2)
         email.classList.add("invalid")
-        email.nextElementSibling.innerHTML = "Preencha o campo com um email válido!";
+        email.nextElementSibling.innerHTML = "Preencha com um email válido! nome@dominio.com";
         email.nextElementSibling.style.opacity = "1";
     } else {
         email.classList.remove("invalid");
@@ -46,7 +46,7 @@ button.addEventListener("click", (e) => {
     if(subject.value == "" || subject.value == null || subject.value.length > 50) {
         count.push(3)
         subject.classList.add("invalid")
-        subject.nextElementSibling.innerHTML = "Conte qual assunto!"
+        subject.nextElementSibling.innerHTML = "Me diga qual assunto com no máximo 50 caracteres"
         subject.nextElementSibling.style.opacity = "1";
     } else {
         subject.classList.remove("invalid")
@@ -55,7 +55,7 @@ button.addEventListener("click", (e) => {
       if(message.value == "" || message.value == null) {
         count.push(4)
         message.classList.add("invalid")
-        message.nextElementSibling.innerHTML = "Me diga algo, qual a sua mensagem?!"
+        message.nextElementSibling.innerHTML = "Me diga algo, qual a sua mensagem!"
         message.nextElementSibling.style.opacity = "1";
     } else if ( message.value.length > 300) {
     	subject.classList.add("invalid")
