@@ -237,30 +237,34 @@
                     <img src="./assets/images/telefone2.png" alt="imagem de um telefone de gancho">
                 </div>
                 
-                <form action="#">
+                <form  action="send.html">
                     <h2>Contato</h2>
                     <p> Quer entrar em contato comigo? <br>
                         Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                     
                     <article class="input-name">
                         <input type="text" id="name" placeholder=" ">
+                        <span id="error">Esse é um teste de erro de validação</span>                        
                         <label for="name" class="input-label">Nome </label>
                     </article>
                     
                     <article class="input-email">
                         <input type="text" id="email" placeholder=" ">
+                        <span id="error"></span>
                         <label for="email" class="input-label">E-mail</label>
                     </article>
 
                     <article class="input-subject">
                         <input type="text" id="subject" placeholder=" ">
+                        <span id="error"></span>
                         <label for="subject" class="input-label">Assunto</label>
                     </article>
-
-                    
+ 
                     <article class="input-textarea">
                         <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                        <span id="error"></span>
                         <label for="msg" class="textarea-label">Mensagem</label>
+                        <span id="show-counter"></span>
                     </article>
                     <button class="btn-send-message">Enviar Mensagem</button>
                 </form>
@@ -274,24 +278,6 @@
     </main>
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

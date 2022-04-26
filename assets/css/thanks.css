@@ -1,0 +1,24 @@
+main {
+  height: calc(100vh - 80px);
+}
+
+.thanks {
+  margin-bottom: 150px;
+}
+.thanks a {
+  display: block;
+  margin: auto;
+  width: 150px;
+  padding: 8px 20px;
+  margin-top: 50px;
+  background-color: #FFF;
+  border-radius: 5px;
+  border: 2px solid #464646;
+  color: #464646;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
